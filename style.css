@@ -66,6 +66,7 @@ h6 {
 /* Variables */
 :root {
   --use-color: #596D48;
+  --inp-color: #E5E7EB;
 }
 
 /* Fonts */
@@ -181,5 +182,20 @@ form button {
 form button:hover {
   cursor: pointer;
   opacity: 0.9;
+  transition-duration: 0.5s;
+}
+
+input {
+  border: 1px solid var(--inp-color);
+  height: 3vh;
+  width: 15vw;
+}
+input:invalid {
+  border: 1px solid red;
+}
+input:focus {
+  outline: none;
+  border: 1px solid blue;
+  box-shadow: 1px 1px 10px grey;
   transition-duration: 0.5s;
 }
