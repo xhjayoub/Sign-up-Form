@@ -63,6 +63,10 @@ h6 {
   isolation: isolate;
 }
 
+/* Variables */
+:root {
+  --use-color: #596D48;
+}
 
 /* Fonts */
 @font-face {
