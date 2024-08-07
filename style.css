@@ -143,3 +143,27 @@ body {
   flex-direction: column;
   gap: 15px;
 }
+
+/* Form style */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.inp div{
+  display: flex;
+  flex-direction: column;
+}
+.inp {
+  display: flex;
+  gap: 10%;
+}
+.inp-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+form button {
+  width: 15vw;
+  height: 5vh;
+}
