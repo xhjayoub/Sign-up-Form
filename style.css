@@ -62,3 +62,12 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+
+.sect-1 {
+  background: url(img/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 40vw;
+}
