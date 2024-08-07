@@ -84,6 +84,8 @@ h6 {
 }
 .logo-container {
   background-color: rgba(0, 0, 0, 0.356);
+  position: relative;
+  bottom: -20%;
 }
 
 .logo-text {
