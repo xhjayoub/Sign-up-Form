@@ -102,3 +102,16 @@ h6 {
   height: 9rem;
   width: 7rem;
 }
+
+.credit {
+  color: white;
+  position: relative;
+  bottom: -78vh;
+}
+.credit p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+a {
+  color: white;
+}
