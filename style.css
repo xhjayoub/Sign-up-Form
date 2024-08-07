@@ -129,11 +129,10 @@ body {
 .sect-2 {
   height: 100vh;
   width: 60vw;
-  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 40px;
+  gap: 10px;
 }
 .sect-2 p {
   font-size: 1.2rem;
@@ -146,14 +145,14 @@ body {
 .text-cont {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 40px;
 }
 
 /* Form style */
 form {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
 }
 .inp div{
   display: flex;
@@ -167,6 +166,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  box-shadow: 1px 4px 10px grey;
 }
 form button {
   width: 17vw;
@@ -178,6 +178,7 @@ form button {
   font-weight: bold;
   border-radius: 4%;
   box-shadow: 1px 4px 6px grey;
+  margin-left: 40px;
 }
 form button:hover {
   cursor: pointer;
@@ -198,4 +199,13 @@ input:focus {
   border: 1px solid blue;
   box-shadow: 1px 1px 10px grey;
   transition-duration: 0.5s;
+}
+label {
+  font-size: 0.9rem;
+}
+
+.text-cont ,
+.acc-log-in ,
+.inp-cont {
+  padding: 40px;
 }
